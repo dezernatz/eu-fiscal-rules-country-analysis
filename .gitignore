@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments and editor state
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# Microsoft Office temporary lock files
+~$*
