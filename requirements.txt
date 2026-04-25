@@ -24,9 +24,16 @@ xlrd>=2.0.0
 jupyter>=1.0.0
 ipykernel>=6.0.0
 
+# Bayesian Modeling and Modelflow
+pymc>=5.0.0
+modelflow2>=0.1.0
+arviz>=0.15.0
+pytensor>=2.14.0
+
 # Additional Utilities
 pathlib2>=2.3.0; python_version < "3.4"
 typing-extensions>=4.0.0; python_version < "3.8"
 
 # Optional: For enhanced performance and parallel processing
 # concurrent-futures>=3.1.1; python_version < "3.2"
+
