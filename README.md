@@ -6,6 +6,7 @@ This repository collects the country-level model code, input data, notebooks, pa
 
 - `paper/` contains the final paper handover files.
 - `results/final/` contains the final country result workbooks used for the paper.
+- `results/figures/` contains the SPB and debt-ratio figures used for the paper.
 - `FS-DSA_Final_AT.ipynb`, `FS-DSA_Final_DE.ipynb`, `FS-DSA_Final_FI.ipynb`, `FS-DSA_Final_FR.ipynb`, and `FS-DSA_Final_IT.ipynb` are the country notebooks.
 - `model/fs/` contains the fiscal sustainability model code used by the country notebooks.
 - `model/dsa/` contains the debt sustainability analysis model code and reference outputs.
@@ -22,6 +23,20 @@ The latest paper result files are in `results/final/`:
 - `Italy_Results_v4.xlsx`
 
 Older or superseded result files are kept in `results/archive/`.
+
+## Result provenance
+
+The public notebooks are copies of the verified `FS-DSA_*_ExactWorkflow.ipynb` notebooks from the project working folder. They are the provenance files for the final result workbooks:
+
+| Country | Notebook | Final workbook | SPB target baseline -> scenario | Potential growth baseline -> scenario |
+| --- | --- | --- | --- | --- |
+| Austria | `FS-DSA_Final_AT.ipynb` | `Austria_Results_v3.xlsx` | 1.06% -> 1.04% | 1.10% -> 1.12% |
+| Finland | `FS-DSA_Final_FI.ipynb` | `Finland_Results_v3.xlsx` | 2.27% -> 2.15% | 0.93% -> 1.00% |
+| France | `FS-DSA_Final_FR.ipynb` | `France_Results_v3.xlsx` | 2.236% -> 2.239% | 1.20% -> 1.16% until 2028; about 1.00% thereafter |
+| Germany | `FS-DSA_Final_DE.ipynb` | `Germany_Results_v3.xlsx` | 0.99% -> 0.84% | 0.90% -> 1.15% |
+| Italy | `FS-DSA_Final_IT.ipynb` | `Italy_Results_v4.xlsx` | 2.95% -> 2.84% | 0.78% -> 0.85% |
+
+Note: the final Finland workbook and notebook use 0.93% -> 1.00% potential growth. The paper text/table reports the older rounded growth comparison 0.90% -> 0.97%, while its SPB target values match the final v3 workbook.
 
 ## Paper files
 
