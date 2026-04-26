@@ -43,7 +43,6 @@ Note: the final Finland workbook and notebook use 0.93% -> 1.00% potential growt
 The paper handover files are in `paper/`:
 
 - `EU_Fiscal_Rules_Reform_Final_Version.docx`
-- `Annex_1_vz_fz.docx`
 
 ## Reproducing results
 
